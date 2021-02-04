@@ -1,0 +1,158 @@
+body {
+
+
+		font-family: cursive;
+		font-weight: 300;
+
+		/*  Ancho pagina*/
+
+		max-width: 100%;
+
+		/* se empiza a posicionar como las manecillas del reloj*/
+		margin: 0 auto;/*CSS margin establece el margen para los cuatro lados.*/
+
+
+
+
+
+}
+
+nav{
+
+
+	width: 100%;
+	height: 10%;
+	background-color: #023D3B;
+
+
+}
+
+nav ul li{
+
+
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.8s all;
+	padding: 10px 20px;
+
+
+}
+
+nav ul li:hover{
+
+	background-color: #72B5B9;
+
+}
+
+nav ul li a{
+
+
+	text-decoration: none;
+	color: #fff;
+
+
+
+}
+
+
+nav ul{
+	padding-top: 90px;
+	float:right;
+}
+
+
+.primeraSeccion{
+
+	background-color: rgb(114, 181, 185);
+
+}
+
+
+
+.videoCanal{
+
+	width: 55%;
+	padding-top: 2em;
+	padding-right: 2em;
+	
+
+
+}
+.informacionVideoCanal{
+
+
+	width: 30%;
+	vertical-align: top; 
+	padding:2em;
+}
+
+
+/* Estilo para todos los articulos*/
+
+article{
+
+	background-color: #023d3b;
+	padding:30px;
+	margin: 10px;
+	
+
+}
+
+article h1{
+
+	border-bottom: solid thin white;
+
+}
+
+.videoCanal , .informacionVideoCanal{
+
+	display: inline-block;
+
+}
+
+
+.infoPrimeraSeccion{
+
+
+	color: white;
+
+}
+
+
+.botonPrimeraSeccion{
+
+	text-align: center;
+	background-color:white;
+	padding: 20px; 
+}
+
+.botonPrimeraSeccion:hover {
+
+	background-color:#72B5B9;
+		color:white; 
+}
+
+.masInfoPrimeraSeccion{
+
+	text-decoration-line:none;
+
+
+
+}
+
+/*ESTILOS SEGUNDA SECCION*/
+
+
+
+.segundaSeccion{
+
+	background-color: #FDFEFE;
+
+}
+
+
+
+
+
+
+
